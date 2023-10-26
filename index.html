@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- boostrap css and custom css -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+
+    <!-- custom css link -->
+    <link rel="stylesheet" href="./index.css">
+    <title></title>
+</head>
+
+<body>
+    <!-- page brand logo box-->
+    <div class="page-brand my-4 mx-5">
+        <a href="" class="page-brand">Linked<i class="bi bi-linkedin"></i></a>
+    </div>
+
+    <!-- button which change theme -->
+    <i class="bi bi-moon-stars-fill" id="theme-button"></i>
+    
+    <!-- login container -->
+    <div class="login-container bg-light" id="login-box">
+        <h1>Sign in</h1>
+        <p id="motto-text">Stay updated on your professional world.</p>
+
+        <!-- Form -->
+        <form action="" method="post" class="mt-4">
+            <div class="form-group">
+              <input type="text" name="email" id="email-input" class="form-control" placeholder="Email or Phone" aria-describedby="helpId">
+            </div>
+            
+            <div class="form-group">
+              <input type="password" name="password" id="password-input" class="form-control" placeholder="Password" aria-describedby="helpId">
+              <a href="#" class="show-button" id="visibility-button">show</a>
+            </div>
+
+            <a href="#" class="forgotpass-button">Forgot Password?</a>
+            <button class="btn btn-primary">Sign in</button>
+        </form>
+
+        <!-- customized break line  -->
+        <div class="break-line-section">
+            <hr>
+            <p>or</p>
+            <hr>
+        </div>
+
+        <!-- agreement message paragraph-->
+        <p class="policy" id="policy-text">By clicking Continue, you agree to LinkedIn's <a href="#">User Agreement, </a><a href="#">Privacy Policy</a> and <a href="#">Cookie Policy.</a></p>
+        <a href="#" class="option btn"><span>
+            <i class="bi bi-google"></i>
+        </span> Continue with Google</a>
+
+        <a href="#" class="option btn"><span>
+            <i class="bi bi-apple"></i>
+        </span> Sign in with Apple</a>
+
+    </div>
+    <p class="new_user_link">New to LinkedIn? <a href="#">Join now</a></p>
+
+    <!-- footer container positioned down-->
+    <div class="footer-container text-light">
+        <p>linked<span><i class="bi bi-linkedin"></i></span> &copy;2023</p>
+        <p>User Agreement</p>
+        <p>Privacy Policy</p>
+        <p>Communities Guildlines</p>
+        <p>Cookie Policy</p>
+        <p>Copyright Policy</p>
+        <p>Send Feedback</p>
+    </div>
+
+    <!-- all javascript links here --> 
+    <script src="./index.js"></script>
+</body>
+</html>

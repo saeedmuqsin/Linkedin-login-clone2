@@ -1,0 +1,159 @@
+body {
+    height: 100%;
+    width: 100%;
+    font-family:-apple-system,system-ui,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue","Fira Sans",Ubuntu,Oxygen,"Oxygen Sans",Cantarell,"Droid Sans","Apple Color Emoji","Segoe UI Emoji","Segoe UI Emoji","Segoe UI Symbol","Lucida Grande",Helvetica,Arial,sans-serif ;
+    margin: 0;
+    padding: 0;
+    position: relative;
+    transition: all 0.5s;
+}
+
+
+/* dark theme */
+.dark-theme {
+    color: #f5eded;
+    background-color: #000000e7;
+}
+a.page-brand {
+    padding: 10px;
+    font-size: 1.7rem;
+    text-decoration: none;
+    color:#0a66c2;
+    font-weight: 600;
+}
+
+#theme-button,
+#theme-button:hover {
+    text-decoration: none;
+    font-size: 1.6rem;
+    position: absolute;
+    top: 0;
+    right: 40px;
+    margin: 20px;
+    color: #0a66c2;
+}
+
+a.page-brand i {
+    margin: 20px 3px 0 3px;
+    font-size: 1.8rem;
+}
+
+.login-container {
+    width: 400px;
+    margin: 20px auto;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.login-container h1 {
+    font-size: 2rem;
+    margin: 15px 4px 2px 4px;
+    font-weight: 550;
+}
+
+.login-container p {
+    font-size: 16px;
+    color: rgb(53, 53, 53);
+    margin: 5px;
+}
+
+.form-control {
+    margin: 20px 0px;
+    font-size: 16px;
+    padding-block: 16px;
+}
+
+.form-group {
+    display: block;
+    position: relative;
+}
+
+
+.form-control::placeholder {
+    font-size: 18px;
+}
+
+a.show-button {
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    position: absolute;
+    top: 16px;
+    right: 10px;
+}
+
+.forgotpass-button {
+    font-weight: 600;
+    margin-top: 4px;
+    margin-inline: 10px;
+    text-decoration: none;
+    display: block;
+}
+
+.btn-primary,
+.option {
+    display: block;
+    margin: 20px 40px;
+    width: 300px;
+    padding: 15px;
+    font-weight: 600;
+    border-radius: 360px;
+}
+
+.break-line-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.break-line-section hr {
+    width: 160px;
+    margin: 0px 10px;
+}
+
+p.policy {
+    font-size: 0.9rem;
+    margin: 10px 20px;
+    font-weight: 600;
+}
+
+p.policy a,
+p.new_user_link a {
+    text-decoration: none;
+}
+
+.option {
+    border: 1px solid #9e9e9e;
+}
+
+.option:hover {
+    border: 1px solid #f5eded;
+    background-color: #dad6d6;
+}
+
+p.new_user_link { 
+    text-align: center;
+    margin: 20px 0px;
+    font-weight: 600;
+}
+
+.new_user_link a:hover {
+    background-color: rgba(3, 3, 233, 0.24);
+    padding: 10px;
+    border-radius: 360px;
+    transition: all 0.5s;
+}
+
+.footer-container {
+    display: flex;
+    min-width: 500px;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.footer-container p {
+    margin: 7px;
+    font-size: 13px;
+    color: #474747;
+}
