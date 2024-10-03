@@ -4,3 +4,8 @@
   Design the linkedin login clone and added the dark/light mode to explore the beauty <br> 
   Here are some the features of the linkedin clone:
 </p>
+
+<ul>
+  <li> Linkedin logo</li>
+  <li>Dark/light mode button</li>
+</ul>
